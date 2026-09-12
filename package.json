@@ -1,0 +1,12 @@
+{
+  "name": "ai-guardian-lite",
+  "version": "1.0.0",
+  "description": "Minimal AI DevOps Guardian - 100% on D drive - watches compiler outputs and auto-fixes with Gemini",
+  "scripts": {
+    "start": "npx n8n start",
+    "start:quiet": "cross-env N8N_DIAGNOSTICS_ENABLED=false N8N_USER_FOLDER=D:/GitProjects/ai-guardian-lite/n8n-data npx n8n start"
+  },
+  "dependencies": {
+    "n8n": "^1.108.2"
+  }
+}
