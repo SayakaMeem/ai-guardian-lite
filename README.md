@@ -1,43 +1,25 @@
-# AI Guardian Lite — DevOps Watcher
+# AI Guardian Lite 🛡️ — Self-Healing Code Guardian
 
-> **Pipeline: WOUND → WATCH → HEAL**
-> A silent guardian that watches logs, thinks with Gemini 3.6, and heals itself.
+**🌐 Live Link:** https://ai-guardian-lite.vercel.app
 
-Live DevOps watcher with meaning-driven UI. No raw paths. Just flow: log → eye → brain → fix.
+[![Vercel](https://img.shields.io/badge/Live-Vercel-black?style=for-the-badge&logo=vercel)](https://ai-guardian-lite.vercel.app)
+[![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat&logo=python)](app.py)
 
-**Repo:** https://github.com/SayakaMeem/ai-guardian-lite
+> Autonomous pipeline: **WOUND → WATCH → HEAL** — detects C++ wounds and auto-heals with Gemini 3.6 Flash
 
----
+## Live Demo
+- **Production:** https://ai-guardian-lite.vercel.app
+- **Local:** http://127.0.0.1:5000
 
-### Meaning Pipeline
+## Vision
+- `CORE ACTIVE` shield eye breathing (72 breath)
+- Eye → Brain → Hand healing animation
+- Nonchalant path: `./outputs` — 6x fixed_*.txt proofs
 
-```
-INCOMING — WOUNDS          THE GUARDIAN          HEALED
-outputs/*.log       →    Eye sees, Brain thinks    →  fixed_*.txt
-```
-
-- **WOUND:** Error log drops into outputs/
-- **WATCH:** Flask polls /api/status every 2s
-- **HEAL:** Gemini 3.6 writes sutured fix EN+BN
-
-### Quick Start
+## Run
 ```bash
-git clone https://github.com/SayakaMeem/ai-guardian-lite.git
-cd ai-guardian-lite
-copy .env.example .env
-# Add key from https://aistudio.google.com/app/apikey
-pip install -r requirements.txt
 python app.py
-# http://127.0.0.1:5000 - CORE ACTIVE
 ```
 
-### Structure
-```
-Vision.html  # Pipeline UI
-app.py       # Flask :5000
- guardian.py  # Watcher + Gemini
-.env.example # Template
-outputs/fixed_*.txt
-```
-
-Built nonchalant. Flow: log → eye → brain → fix.
+## Model
+`gemini-3.6-flash` | Bangla + English fix
