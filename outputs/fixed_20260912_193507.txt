@@ -1,0 +1,9 @@
+ORIGINAL: test_final.log
+main.cpp:10:5: error: 'cout' was not declared in this scope
+   10 |     cout << "Hello";
+      |     ^~~~
+
+--- AI FIX ---
+Add `#include <iostream>` at the top of your file and write `std::cout` or add `using namespace std;`.
+কোডের শুরুতে `#include <iostream>` যোগ করুন এবং `cout`-এর বদলে `std::cout` অথবা `using namespace std;` ব্যবহার করুন।
+Time: 2026-09-12 19:35:07.240373

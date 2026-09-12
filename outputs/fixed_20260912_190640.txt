@@ -1,0 +1,8 @@
+ORIGINAL LOG: test.log
+fatal error: stdio.h: No such file or directory
+
+--- SOLUTION ---
+FIX: You need to install GCC / MinGW. In VS Code, use: #include <cstdio> not <stdio.h> for C++ OR add MinGW to PATH
+Bangla: GCC install koren, MinGW PATH e add korun
+
+Time: 20260912_190640

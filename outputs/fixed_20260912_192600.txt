@@ -1,0 +1,8 @@
+ORIGINAL: my_test.log
+error: undefined reference to `calculateSum'
+collect2.exe: error: ld returned 1 exit status
+
+--- AI FIX ---
+FIX: Check syntax near line number shown
+Bangla: Line number dekhe syntax thik korun
+Time: 2026-09-12 19:26:00.389383

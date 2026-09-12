@@ -1,0 +1,8 @@
+ORIGINAL: test_1789224456.log
+main.cpp:10:5: error: cout not declared
+ 10 |     cout << "Hello";
+
+--- AI FIX (Gemini 3.6) ---
+Add #include <iostream> and std::cout
+Bangla: iostream jog korun
+Time: 2026-09-12 20:47:37.514205

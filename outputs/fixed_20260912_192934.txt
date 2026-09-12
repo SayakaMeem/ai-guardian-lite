@@ -1,0 +1,10 @@
+ORIGINAL: final_test.log
+main.cpp:5:10: fatal error: stdio.h: No such file or directory
+    5 | #include <stdio.h>
+      |          ^~~~~~~~~
+compilation terminated.
+
+--- AI FIX ---
+FIX: Install GCC/MinGW to PATH. C++ use <cstdio>
+Bangla: Install GCC/MinGW to PATH. C++ use <cstdio>
+Time: 2026-09-12 19:29:34.564258
